@@ -2,7 +2,7 @@
 {% block title %}Hello PostController!{% endblock %}
 {% block body %}
     {% if is_granted('ROLE_USER')%}
-        <div class="text-right mb-2">
+        <div class="text-right mb-2 mt-5">
             <a href="{{ path('announcement-create') }}" class="btn btn-warning">
                 Nouvel annonce
             </a>
