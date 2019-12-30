@@ -12,13 +12,13 @@
             </li>
             {% if is_granted('ROLE_USER')%}
                 <li class="nav-item">
-                    <button class="btn btn-outline-success" type="button">
+                    <button class="btn btn-outline-info" type="button">
                         <a href="{{ path('announcement-create')}}" class="nav-link">Création nouvelle annonce</a>
                     </button>
                 </li>
             {% endif %}
             <li class="nav-item">
-                <button class="btn btn-outline-info" type="button">
+                <button class="btn btn-outline-success" type="button">
                     <a href="{{ path('user-insciption')}}" class="nav-link">Inscription</a>
                 </button>
             </li>
